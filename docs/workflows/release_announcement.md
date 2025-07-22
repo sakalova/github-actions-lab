@@ -28,10 +28,10 @@ Draft a message template that will be sent in the channel (use variables to popu
 Go to Settings → 
 Secrets and variables → 
 Actions →  
-Add a new secret named **`SLACK_WEBHOOK_URL`** with the URL copied from Slack.
+Add a new secret named `SLACK_WEBHOOK_URL` with the URL copied from Slack.
 
 ## Result
 When a release is published, a Slack message like the one below is sent:
 
-![Slack Notification](https://github.com/sakalova/github-actions-lab/images/release-announcement.png)
+![Slack Notification](https://raw.githubusercontent.com/sakalova/github-actions-lab/master/images/release_announcement.png)
 
