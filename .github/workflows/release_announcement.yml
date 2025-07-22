@@ -1,4 +1,4 @@
-name: Post Release Announcement
+name: Release Announcement
 on:
   release:
     types:
